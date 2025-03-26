@@ -4,6 +4,7 @@ __author__: str = "730765838"
 
 
 def invert(old_dict: dict[str, str]) -> dict[str, str]:
+    """This function will inverse the keys and values of the original dict."""
     new_dict = {}
     for key in old_dict:
         new_value = key
@@ -15,6 +16,7 @@ def invert(old_dict: dict[str, str]) -> dict[str, str]:
 
 
 def count(num: list[str]) -> dict[str, int]:
+    """This function will give a dict with words and its count of repeated times."""
     results = {}
     for key in num:
         results_key = key
@@ -26,6 +28,7 @@ def count(num: list[str]) -> dict[str, int]:
 
 
 def favorite_color(the_colors: dict[str, str]) -> str:
+    """This function will tell the fav color from a dict of names and colors."""
     color: str = ""
     list_color: list[str] = []
     counting: int = 0
@@ -42,6 +45,7 @@ def favorite_color(the_colors: dict[str, str]) -> str:
 
 
 def bin_len(the_list: list[str]) -> dict[int, set[str]]:
+    """This function will turn a list into a dict based on the word length."""
     the_dict: dict[int, set[str]] = {}
     for key in the_list:
         if len(key) in the_dict:
