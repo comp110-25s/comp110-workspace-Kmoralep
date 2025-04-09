@@ -6,8 +6,8 @@ from exercises.ex04.bear import Bear
 
 class River:
     day: int
-    bears: list[str]
-    fish: list[str]
+    Bears: list[str]
+    Fish: list[str]
 
     def __init__(self, num_fish: int, num_bears: int):
         """New River with num_fish Fish and num_bears Bears"""
