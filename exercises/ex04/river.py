@@ -7,6 +7,7 @@ from exercises.ex04.bear import Bear
 
 
 class River:
+    """This is a River class with attributes of day, bears, and fish."""
     day: int
     Bears: list[str]
     Fish: list[str]

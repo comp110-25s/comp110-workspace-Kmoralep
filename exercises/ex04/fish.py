@@ -4,6 +4,7 @@ __author__: str = "730765838."
 
 
 class Fish:
+    """This is a Fish class with attributes of age."""
     age: int
 
     def __init__(self) -> None:
